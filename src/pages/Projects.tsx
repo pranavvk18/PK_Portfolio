@@ -62,7 +62,7 @@ const colors = {
   "Computer Vision": "text-developer-green border-developer-green", // green
   "Machine Learning": "text-purple-400 border-purple-400", // purple
   "IoT & Edge Computing": "text-yellow-400 border-yellow-400", // yellow
-  "Biomedical NLP and Machine Learning": "text-pink-400 border-pink-400", // pink
+  "NLP and Machine Learning": "text-pink-400 border-pink-400", // pink
   "Network Security": "text-cyan-400 border-cyan-400" // cyan
 };
 

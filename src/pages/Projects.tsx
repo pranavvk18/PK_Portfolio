@@ -56,15 +56,16 @@ const Projects = () => {
   ];
 
   const getCategoryColor = (category: string) => {
-    const colors = {
-      "Object Oriented Programming in Java": "text-developer-orange border-developer-orange",
-      "Data Analysis": "text-developer-blue border-developer-blue",
-      "Computer Vision": "text-developer-green border-developer-green",
-      "Machine Learning": "text-purple-400 border-purple-400",
-      "IoT & Edge Computing": "text-yellow-400 border-yellow-400",
-      "Machine Learning": "text-purple-400 border-purple-400",
-      "Network Security": "text-blue-400 border-blue-400"
-    };
+const colors = {
+  "Object Oriented Programming in Java": "text-developer-orange border-developer-orange", // warm orange
+  "Data Analysis": "text-developer-blue border-developer-blue", // sky blue
+  "Computer Vision": "text-developer-green border-developer-green", // green
+  "Machine Learning": "text-purple-400 border-purple-400", // purple
+  "IoT & Edge Computing": "text-yellow-400 border-yellow-400", // yellow
+  "Biomedical NLP and Machine Learning": "text-pink-400 border-pink-400", // pink
+  "Network Security": "text-cyan-400 border-cyan-400" // cyan
+};
+
     return colors[category] || "text-foreground border-foreground";
   };
 

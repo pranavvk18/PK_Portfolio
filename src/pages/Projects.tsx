@@ -38,8 +38,8 @@ const Projects = () => {
       tools: ["TensorFlow Lite", "ESP32"],
       github: "https://github.com/pranavvk18/mobile_price_classification_model_on_ESP32",
       category: "IoT & Edge Computing"
-    }
-     {
+    },
+    {
     name: "Extraction of Dark Data from EHR using Ensemble Models",
     description: "Developed a system to extract dark data from unstructured EHR fields in a synthetic Blood Cancer dataset using en_ner_bc5cdr_md for biomedical entity recognition. Used ensemble models like Random Forest, XGBoost, LightGBM, and Stacking Classifier to enhance predictive accuracy.",
     tools: ["Python", "SciSpaCy", "scikit-learn"],

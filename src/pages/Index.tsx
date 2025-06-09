@@ -26,7 +26,7 @@ const Index = () => {
               Pranav P Kulkarni
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-light">
-              Computer Science Student & Developer
+              Computer Science Student and Developer
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const Index = () => {
           {/* Terminal-style footer */}
           <div className={`mt-12 text-sm text-muted-foreground transition-all duration-1000 delay-1000 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <p className="font-mono">$ whoami</p>
-            <p className="font-mono">pranav@portfolio:~$ passionate_problem_solver</p>
+            <p className="font-mono">pranav@portfolio:~$ passionate_learner</p>
           </div>
         </div>
       </div>

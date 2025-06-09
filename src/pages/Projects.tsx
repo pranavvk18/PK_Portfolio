@@ -39,15 +39,31 @@ const Projects = () => {
       github: "https://github.com/pranavvk18/mobile_price_classification_model_on_ESP32",
       category: "IoT & Edge Computing"
     }
+     {
+    name: "Extraction of Dark Data from EHR using Ensemble Models",
+    description: "Developed a system to extract dark data from unstructured EHR fields in a synthetic Blood Cancer dataset using en_ner_bc5cdr_md for biomedical entity recognition. Used ensemble models like Random Forest, XGBoost, LightGBM, and Stacking Classifier to enhance predictive accuracy.",
+    tools: ["Python", "SciSpaCy", "scikit-learn"],
+    github: "https://github.com/pranavvk18/Extraction-of-dark-data-in-EHR-using-ensemble-models",
+    category: "Healthcare AI"
+  },
+  {
+    name: "Congestion Control Simulator and Secure Chat Application",
+    description: "Developed a TCP Congestion Control Simulator (Tahoe, Reno, NewReno) using Streamlit, and a Secure Chat App with TCP-like communication, login via MySQL, and congestion window control. Created for the Network Security course.",
+    tools: ["Python", "MySQL", "Streamlit"],
+    github: "https://github.com/pranavvk18/Congestion-_Control_-Simulator-_and_Chat_Application",
+    category: "Network Security"
+  }
   ];
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Game Development": "text-developer-orange border-developer-orange",
+      "Object Oriented Programming in Java": "text-developer-orange border-developer-orange",
       "Data Analysis": "text-developer-blue border-developer-blue",
       "Computer Vision": "text-developer-green border-developer-green",
       "Machine Learning": "text-purple-400 border-purple-400",
-      "IoT & Edge Computing": "text-yellow-400 border-yellow-400"
+      "IoT & Edge Computing": "text-yellow-400 border-yellow-400",
+      "Machine Learning": "text-purple-400 border-purple-400",
+      "Network Security": "text-blue-400 border-blue-400"
     };
     return colors[category] || "text-foreground border-foreground";
   };
